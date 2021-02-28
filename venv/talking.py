@@ -6,7 +6,7 @@ from google_trans_new import google_translator
 
 engine = pyttsx3.init()
 recogniser = speech_recognition.Recognizer()
-aud_file = speech_recognition.AudioFile("record.wav")
+# aud_file = speech_recognition.AudioFile("record.wav")
 mic_voice = speech_recognition.Microphone()
 translator = google_translator()
 p1name="Abhishek Hindi"
